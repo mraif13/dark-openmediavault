@@ -91,3 +91,5 @@ body.x-border-layout-ct, div.x-border-layout-ct { background-color: #404040 !imp
 .x-btn-default-small, .x-btn-default-toolbar-small{
     border-radius:7px;
 }
+/* adds rouded corners to img */
+.x-panel-rrdgraph img{border-radius:7px !important}
