@@ -1,4 +1,3 @@
-
 /* header */
 #header { background-color: #121212 !important }
 #headerlogo { filter:brightness(0.9) }
@@ -24,7 +23,7 @@ body.x-border-layout-ct, div.x-border-layout-ct { background-color: #404040 !imp
 .x-form-trigger-wrap-default { border-color: #606060 !important }
 .x-btn-default-small { background-color: #253c5e !important; border-color: #054070 !important }
 .x-color-boolean-false, .x-color-grey, .x-form-fieldinfo { color: #808080 !important }
-.x-color-boolean-true, .x-color-good { color: #0c8914 !important }
+.x-color-boolean-true, .x-color-good { color: #10ba1b !important }
 .x-form-cb, .x-form-checkbox-default { filter:brightness(0.8) !important }
 .x-btn-icon-el, .x-btn-icon-el-default-toolbar-small, .thumb-icon, .x-menu-item-icon-default { filter:invert(0.9) !important }
 .x-menu-item-icon-default { color: #000 !important }
@@ -53,7 +52,7 @@ body.x-border-layout-ct, div.x-border-layout-ct { background-color: #404040 !imp
 .x-grid-item-alt { background-color: #121212 !important }
 .x-grid-cell { border-color: #909090 !important }
 .x-grid-group-title, .x-grid-cell-inner { color: #d5d5d5 !important }
-.x-grid-item-selected {background-color:#224782 !important}
+.x-grid-item-selected {background-color:#822254 !important}
 
 /* tabbar */
 .x-tab-bar-default, .x-grid-header-ct { background-color: #121212 !important }
@@ -68,7 +67,7 @@ body.x-border-layout-ct, div.x-border-layout-ct { background-color: #404040 !imp
 
 /* fieldset */
 .x-fieldset-header-text { color: #e7e7e7e7 !important }
-.x-fieldset  { background-color: #121212 !important }
+.x-fieldset  { background-color: #121212 !important; border-radius:7px; }
 .x-fieldset-default { border-color: #323232 !important }
 
 /* group */
@@ -79,17 +78,18 @@ body.x-border-layout-ct, div.x-border-layout-ct { background-color: #404040 !imp
 .x-progress-default { background-color: #505050 !important; border-color: #909090 !important }
 .x-progress-text { color: #c0e0c0 !important }
 .x-progress-text-back { color: #d0d0d0 !important }
-.x-progress-bar-default { background-color: #0c8914 !important }
+.x-progress-bar-default { background-color: #10ba1b !important }
 
 /* selected items */
-.x-tab-focus { outline-color: #909090 !important }
-.x-grid-item-focused .x-grid-cell-inner:before{border:1px solid #909090 !important}
-.x-boundlist-selected, .x-window-default  { border-color: #144287 !important }
-.x-datepicker-selected, .x-btn-focus, .x-menu-item-focus, .x-boundlist-item-over, .x-boundlist-selected { background-color: #224782 !important }
-.x-tagfield-item-selected, .x-menu-item-active {background-color:#224782 !important; border-color:#144287 }
+.x-tab-focus { outline-color: #121212 !important }
+.x-grid-item-focused .x-grid-cell-inner:before{border:1px solid #121212!important}
+.x-boundlist-selected, .x-window-default  { border-color: #909090 !important }
+.x-datepicker-selected, .x-btn-focus, .x-menu-item-focus, .x-boundlist-item-over, .x-boundlist-selected { background-color: #909090 !important }
+.x-tagfield-item-selected, .x-menu-item-active {background-color:#909090 !important; border-color:#909090 }
 /* new css */
 .x-btn-default-small, .x-btn-default-toolbar-small{
     border-radius:7px;
 }
 /* adds rouded corners to img */
 .x-panel-rrdgraph img{border-radius:7px !important}
+.x-boundlist-selected, .x-window-default{border-radius:7px !important}
