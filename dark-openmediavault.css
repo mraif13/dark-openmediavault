@@ -93,3 +93,17 @@ body.x-border-layout-ct, div.x-border-layout-ct { background-color: #404040 !imp
 /* adds rouded corners to img */
 .x-panel-rrdgraph img{border-radius:7px !important}
 .x-boundlist-selected, .x-window-default{border-radius:7px !important}
+
+.x-grid-cell-inner-treecolumn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.x-workspace-node-view-category-header .thumb-wrap {
+    padding: 10px;
+}
+
+.x-workspace-navigation-toolbar.x-toolbar-default, .x-panel-header-default, .x-tool-tool-el {
+    background-color: #121212 !important;
+    border-bottom-width: 0px;
+    border-color: #313131 !important;
+}
